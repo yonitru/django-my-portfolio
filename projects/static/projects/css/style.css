@@ -1,5 +1,5 @@
 .logo {
-    /* background-image:url("yonitrushoalps.jpg"); */
+    /* background-image:url("../yonitrushoalps.jpg"); */
     display:block;
     width:267px;
     padding-left:10px;
@@ -9,7 +9,7 @@
     margin:0 auto;
     width:1200px;
 } */
-.myrow {
+.myrow { 
     display: flex;
     flex-wrap: wrap;
 }
