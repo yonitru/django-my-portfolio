@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yonit Rusho</title>
+</head>
+<body>
+    <header>logo goes here</header>
+    <nav>
+        <ul>
+            <li><a href="../../../projects/templates/projects/">projects</a></li>
+            <li><a href="#">student blog</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Yonit Rusho - Student Blog</h1>
+        {% for article in articles %}
+        <section id="{{article.id}}">       
+            <h2>{{article.title}}</h2>
+            <h4>{{article.date}}</h4>
+            <a href="{{article.id}}">{{article.description}}</a>
+        {% endfor %}
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,20 @@
+.logo {
+    /* background-image:url("yonitrushoalps.jpg"); */
+    display:block;
+    width:267px;
+    padding-left:10px;
+    height:100px;
+}
+/* .wrapper {
+    margin:0 auto;
+    width:1200px;
+} */
+.myrow {
+    display: flex;
+    flex-wrap: wrap;
+}
+header {flex: 28%;}
+nav {flex: 70%}
+img {
+    width:100px;
+}
